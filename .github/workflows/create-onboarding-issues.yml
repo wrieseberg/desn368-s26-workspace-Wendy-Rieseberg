@@ -134,12 +134,9 @@ jobs:
               - [ ] Repo URL
               - [ ] Figma username
               - [ ] CodePen URL
-              - [ ] LiveCode profile link
               - [ ] GitHub Student Pack status
             - [ ] Submit your repo link in **Canvas**
 
-            ### LiveCode
-            If you haven't set up your LiveCode profile yet, do so now and add the link to your README.
 
             ### You're done!
             Once everything is filled in and submitted, close this issue. Your professional workspace is ready for the quarter.
