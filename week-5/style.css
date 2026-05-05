@@ -2,18 +2,18 @@
 body {
   min-height: 482vh;
   background-image: url("images/pink-background.png");
-  background-size: 55% auto;
+  background-size: 72% auto;
   background-position: center top;
   background-repeat: no-repeat;
   background-color: black;
 }
 
 #description {
-  margin-top: 86vh;
+  margin-top: 690px;
   font-family: 'Oswald', sans-serif;
   color: white;
   text-align: left;
-  margin-left: 56vh;
+  margin-left: 220px;
 }
 
 #description p {
@@ -60,7 +60,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   color: white;
   text-align: left;
-  margin-left: 56vh;
+  margin-left: 216px;
   margin-top: 8vh;
   font-size: 75px;
   font-weight: 900;
@@ -80,7 +80,7 @@ h1 {
 
   width: 750px;
   margin: 30px 0;
-  margin-left: 56.5vh;
+  margin-left: 220px;
 
   text-align: left;
 }
@@ -97,7 +97,7 @@ h1 {
   background-color: black;
 
   width: 810px;
-  margin-left: 56.5vh;
+  margin-left: 220px;
   margin-top: -10px;
   position: relative;
 }
@@ -172,8 +172,8 @@ h1 {
 
     #quote2 {
       width: 600px;
-      margin-left: 440px;
-      margin-top: 150px;
+      margin-left: 190px;
+      margin-top: 115px;
       text-align: center;
     }
 
@@ -181,7 +181,7 @@ h1 {
       font-family: 'Oswald', sans-serif;
       position: relative;
       text-align: center;
-      font-size: 60px;
+      font-size: 40px;
       font-weight: 900;
       color: white;
       letter-spacing: 0.5px;
@@ -193,7 +193,7 @@ h1 {
   content: "“";
   position: absolute;
   z-index:3;
-  left: 100px;
+  left: 140px;
   top: -10px;
   font-size: 80px;
   color: white;
@@ -203,8 +203,8 @@ h1 {
   content: "”";
   position: absolute;
   z-index:3;
-  right: 60px;
-  bottom: 0;
+  right: 120px;
+  bottom: -10px;
   font-size: 80px;
   color: white;
 }
@@ -233,5 +233,5 @@ h1 {
       box-shadow: 0 0 25px deeppink;
 
       margin-left: 0;
-      margin-top: 50px;
+      margin-top: 20px;
    }
