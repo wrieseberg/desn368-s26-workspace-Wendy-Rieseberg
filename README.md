@@ -21,11 +21,11 @@ as I learn web design and development
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
 - **GitHub Profile:**  ⏳
-- **Workspace Repository:** [Add your repository URL here] ⏳
-- **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳
+- **Workspace Repository:** https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
+- **Figma:** wrieseberg@ewu.edu - Wendy
+- **CodePen:**  https://codepen.io/wrieseberg
+- **LiveCode:** 
+- **GitHub Student Pack:** approved
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README
