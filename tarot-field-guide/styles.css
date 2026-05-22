@@ -277,6 +277,12 @@ footer {
   box-shadow: 0 0 14px var(--accent);
 }
 
+
+.section-banner.case-study-banner {
+  font-size: 3vw;
+}
+
+
 @media (max-width: 640px) {
   .page-layout {
     flex-direction: column;
@@ -342,11 +348,8 @@ footer {
   line-height: 1.4;
 }
 
-.case-study-banner {
-  font-size: 3vw;
-}
-
-.case-study-banner {
+.section-banner.case-study-banner {
   font-size: 28px;
 }
+
 
