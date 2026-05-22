@@ -326,4 +326,16 @@ footer {
   .decorative {
     display: none;
   }
+
+  .code-box {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.code-box code {
+  font-size: 18px;
+  line-height: 1.4;
+}
 }
