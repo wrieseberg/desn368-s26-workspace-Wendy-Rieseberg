@@ -264,7 +264,7 @@ footer {
   font-size: 22px;
   color: white;
   text-decoration: none;
-  border: 2px solid var(--accent)
+  border: 2px solid var(--accent);
   border-radius: 14px;
   padding: 16px 26px;
   transition: 0.3s ease;
@@ -278,15 +278,28 @@ footer {
 @media (max-width: 640px) {
   .page-layout {
     flex-direction: column;
+    padding: 20px;
   }
 
   #navbar {
     position: static;
     flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .nav-header {
+    font-size: 42px;
+  }
+
+  .nav-link {
+    font-size: 22px;
+    white-space: normal;
   }
 
   .content-row {
     flex-direction: column;
+    gap: 24px;
   }
 
   .footer-buttons {
@@ -295,13 +308,18 @@ footer {
 
   .section-banner {
     font-size: 32px;
+    white-space: normal;
   }
 
   .section-text {
     padding: 24px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .section-image {
+  .section-image,
+  .large-image,
+  .xlarge-image {
     width: 100%;
   }
 
