@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+body {
+  background-color: #111111;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#header {
+  background-color: #111111;
+}
+
 #hero {
   background-image: url("https://snipboard.io/cKwD2Y.jpg");
   background-size: cover;
@@ -12,3 +34,4 @@
 
   text-align: center;
 }
+
