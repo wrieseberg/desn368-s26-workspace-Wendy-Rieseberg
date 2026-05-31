@@ -294,3 +294,225 @@ body {
   margin: 0;
   padding-top: 0px;
 }
+
+
+/* MEMBERSHIP TIERS */
+
+#features {
+  padding: 70px 50px 100px;
+}
+
+#features::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 95%;
+  max-width: 1500px;
+  background-color: #6E8B7B;
+  margin: 0 auto 90px;
+}
+
+#features h2 {
+  background-color: #6E8B7B;
+  color: #EAE8E1;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1;
+  text-align: center;
+  padding: 32px 40px;
+  margin: 0 auto 90px;
+  max-width: 1300px;
+
+  text-shadow:
+    0 0 6px rgba(47, 79, 70, 0.35),
+    0 0 12px rgba(47, 79, 70, 0.2),
+    -2px 2px 6px rgba(47, 79, 70, 0.4);
+}
+
+.feature-grid {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 50px;
+}
+
+.feature-card {
+  width: 33.33%;
+  min-height: 680px;
+
+  background-color: #EAE8E1;
+  border: 18px solid #6E8B7B;
+
+  box-shadow: 0 0 16px rgba(110, 139, 123, 0.65);
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.feature-card::before {
+  content: "";
+  display: block;
+  height: 28px;
+  background-color: #EAE8E1;
+}
+
+.feature-card-header {
+  background-color: #6E8B7B;
+
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  padding: 18px 32px;
+
+  min-height: 120px;
+}
+
+.feature-card-header img {
+  width: 70px;
+  height: auto;
+  display: block;
+}
+
+.feature-card-header img.flashlight-icon {
+  width: 45px;
+}
+
+.feature-card-header h4 {
+  color: #121212;
+  font-family: "Manrope", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.feature-card-content {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 36px 32px;
+}
+
+.feature-card-content h3 {
+  color: #121212;
+  font-size: 44px;
+  margin: 0 0 24px;
+}
+
+.feature-card-content ul {
+  flex-grow: 1;
+
+  margin: 0 0 40px;
+  padding-left: 28px;
+
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  line-height: 1.45;
+}
+
+.feature-card-content li {
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.tier-button {
+  align-self: center;
+
+  background-color: #5E8B65;
+  color: #EAE8E1;
+
+  border: 2px solid #2F4F46;
+  border-radius: 6px;
+
+  padding: 8px 28px;
+
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Package comparison */
+
+/* PACKAGE COMPARISON SECTION */
+
+#data {
+  padding: 80px 40px;
+}
+
+#data::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 95%;
+  max-width: 1500px;
+  background-color: #6E8B7B;
+  margin: 0 auto 90px;
+}
+
+#data h2 {
+  background-color: #6E8B7B;
+  color: #EAE8E1;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1;
+  text-align: center;
+  padding: 32px 40px;
+  margin: 0 auto 90px;
+
+  max-width: 1300px;
+
+  text-shadow:
+    0 0 6px rgba(47, 79, 70, 0.35),
+    0 0 12px rgba(47, 79, 70, 0.2),
+    -2px 2px 6px rgba(47, 79, 70, 0.4);
+}
+.table-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px;
+  background-color: #78977f;
+  box-shadow: 0 0 12px #78977f;
+}
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d8d8d8;
+  color: #244c43;
+}
+
+#data-table th,
+#data-table td {
+  border: 2px solid #111111;
+  padding: 18px 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#data-table th {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #111111;
+  text-align: center;
+}
+
+#data-table td {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+
+#data-table td:first-child {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #111111;
+}
