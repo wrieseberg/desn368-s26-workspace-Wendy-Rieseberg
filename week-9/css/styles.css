@@ -530,6 +530,16 @@ body {
   color: #111111;
 }
 
+.table-scroll-hint {
+  text-align: center;
+  color: #6E8B7B;
+  font-size: 14px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+
 /* VIDEO SECTION */
 
 #video-section {
@@ -906,6 +916,10 @@ footer p {
 
   #hero h1 {
     font-size: 42px;
+    0 0 10px rgba(0, 0, 0, 0.8),
+    0 0 20px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(0, 0, 0, 0.4);
+      -webkit-text-stroke: .75px #111111;
   }
 
   #hero p {
@@ -971,6 +985,32 @@ footer p {
     min-width: 700px;
   }
 
+  .table-scroll-hint {
+  display: block;
+}
+
+.table-wrapper {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0px;
+  height: 100%;
+
+  background: linear-gradient(
+    to left,
+   #EAE8E1,
+    transparent
+  );
+
+  pointer-events: none;
+}
+
   /* Video Section */
 
   .video-content h3 {
@@ -988,6 +1028,12 @@ footer p {
   #submit {
     font-size: 22px;
   }
+
+  .video-content .cta-button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+}
 
   /* Form */
 
