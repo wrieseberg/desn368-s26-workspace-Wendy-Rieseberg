@@ -407,8 +407,9 @@ body {
 .feature-card-content ul {
   flex-grow: 1;
 
+  list-style: none;
   margin: 0 0 40px;
-  padding-left: 28px;
+  padding-left: 0;
 
   font-family: "Manrope", sans-serif;
   font-size: 26px;
@@ -418,6 +419,18 @@ body {
 .feature-card-content li {
   color: #121212;
   margin-bottom: 10px;
+
+  position: relative;
+  padding-left: 28px;
+}
+
+.feature-card-content li::before {
+  content: "✦";
+  color: #6E8B7B;
+
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .tier-button {
@@ -515,4 +528,231 @@ body {
   font-size: 30px;
   letter-spacing: 1px;
   color: #111111;
+}
+
+/* VIDEO SECTION */
+
+#video-section {
+  padding: 70px 50px 100px;
+}
+
+#video-section::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 95%;
+  max-width: 1500px;
+  background-color: #6E8B7B;
+  margin: 0 auto 90px;
+}
+
+#video-section h2 {
+  background-color: #6E8B7B;
+  color: #EAE8E1;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1;
+  text-align: center;
+  padding: 32px 40px;
+  margin: 0 auto 40px;
+  max-width: 1300px;
+
+  text-shadow:
+    0 0 6px rgba(47, 79, 70, 0.35),
+    0 0 12px rgba(47, 79, 70, 0.2),
+    -2px 2px 6px rgba(47, 79, 70, 0.4);
+}
+
+.video-row {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.video-container {
+  flex: 2;
+
+  border-left: 18px solid #6E8B7B;
+  border-right: 18px solid #6E8B7B;
+  border-bottom: 18px solid #6E8B7B;
+
+  padding: 0;
+  overflow: hidden;
+
+  margin-top: -40px;
+
+  box-shadow: 0 0 16px rgba(110, 139, 123, 0.65);
+}
+
+
+#video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+}
+
+.video-content {
+  flex: 1;
+  position: relative;
+  top: -25px;
+}
+
+.video-content h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #6E8B7B;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 0 0 28px;
+  text-shadow:
+ 0 0 10px rgba(110, 139, 123, 0.6),
+    0 0 20px rgba(110, 139, 123, 0.4),
+    0 0 30px rgba(110, 139, 123, 0.2);
+}
+
+.video-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 34px;
+}
+
+.video-content li {
+  color: #EAE8E1;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.video-content li::before {
+  content: "✦";
+  color: #6E8B7B;
+  margin-right: 12px;
+}
+
+.video-content p {
+  color: #EAE8E1;
+  font-size: 26px;
+  line-height: 1.3;
+  margin: 0 0 34px;
+}
+
+.video-content .cta-button {
+  display: inline-block;
+  width: auto;
+  max-width: max-content;
+
+  font-size: 24px;
+  padding: 12px 28px;
+
+  margin-top: 0;
+  margin-left: 70px;
+}
+
+/* MEMBERSHIP SIGNUP */
+
+#membership {
+  padding: 70px 50px 100px;
+}
+
+#membership::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 95%;
+  max-width: 1500px;
+  background-color: #6E8B7B;
+  margin: 0 auto 90px;
+}
+
+#membership h2 {
+  background-color: #6E8B7B;
+  color: #EAE8E1;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1;
+  text-align: center;
+  padding: 32px 40px;
+  margin: 0 auto 40px;
+  max-width: 1300px;
+
+  text-shadow:
+    0 0 6px rgba(47, 79, 70, 0.35),
+    0 0 12px rgba(47, 79, 70, 0.2),
+    -2px 2px 6px rgba(47, 79, 70, 0.4);
+}
+
+#membership p {
+  max-width: 900px;
+  margin: 0 auto 50px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+#contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #EAE8E1;
+  border: 18px solid #6E8B7B;
+  box-shadow: 0 0 16px rgba(110, 139, 123, 0.65);
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#contact-form label {
+  color: #121212;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  padding: 12px;
+  border: 2px solid #2F4F46;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+  outline: 3px solid #6E8B7B;
+}
+
+#submit {
+  align-self: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer a {
+  color: #EAE8E1;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  margin: 0 12px;
+
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: #6E8B7B;
+}
+
+footer p {
+  margin-top: 20px;
+  color: #EAE8E1;
+  font-size: 16px;
 }
