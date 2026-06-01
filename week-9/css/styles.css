@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
 
-body {
-  background-color: #111111;
-  color: #ffffff;
-  font-family: "Manrope", sans-serif;
-  margin: 0;
-}
+
 
 .cta-button,
 .tier-button,
@@ -119,7 +114,7 @@ body {
 }
 
 #hero {
-  min-height 700px;
+  min-height: 700px;
   background-image: url("https://snipboard.io/cKwD2Y.jpg");
   background-size: cover;
   background-position: center;
@@ -913,14 +908,16 @@ footer p {
   #hero {
     padding: 220px 18px 60px;
   }
+#hero h1 {
+  font-size: 42px;
 
-  #hero h1 {
-    font-size: 42px;
+  text-shadow:
     0 0 10px rgba(0, 0, 0, 0.8),
     0 0 20px rgba(0, 0, 0, 0.6),
     0 0 30px rgba(0, 0, 0, 0.4);
-      -webkit-text-stroke: .75px #111111;
-  }
+
+  -webkit-text-stroke: 0.75px #111111;
+}
 
   #hero p {
     font-size: 18px;
@@ -987,28 +984,6 @@ footer p {
 
   .table-scroll-hint {
   display: block;
-}
-
-.table-wrapper {
-  position: relative;
-  overflow-x: auto;
-}
-
-.table-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0px;
-  height: 100%;
-
-  background: linear-gradient(
-    to left,
-   #EAE8E1,
-    transparent
-  );
-
-  pointer-events: none;
 }
 
   /* Video Section */
