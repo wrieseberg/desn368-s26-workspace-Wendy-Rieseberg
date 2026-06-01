@@ -756,3 +756,242 @@ footer p {
   color: #EAE8E1;
   font-size: 16px;
 }
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+
+  /* Header */
+
+  #header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  #header-img {
+    width: 140px;
+    margin-bottom: 10px;
+  }
+
+  #nav-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  /* Hero */
+
+  #hero {
+    padding: 260px 24px 80px;
+    min-height: 700px;
+    background-position: center;
+  }
+
+  #hero h1 {
+    font-size: 56px;
+    line-height: 1;
+  }
+
+  #hero p {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  /* Section Headings */
+
+  h2 {
+    font-size: 48px;
+  }
+
+  /* Two Column Sections */
+
+  .two-column {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .two-column img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Membership Cards */
+
+  .feature-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 600px;
+    min-height: auto;
+  }
+
+  /* Package Table */
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  /* Video Section */
+
+  .video-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .video-container,
+  .video-content {
+    width: 100%;
+  }
+
+  .video-content {
+    top: 0;
+    padding-top: 0;
+  }
+
+  /* Form */
+
+  #contact-form {
+    width: 100%;
+    padding: 30px;
+  }
+
+  /* Footer */
+
+  footer {
+    text-align: center;
+  }
+}
+
+
+/* =========================
+   PHONE
+========================= */
+
+@media (max-width: 480px) {
+
+  /* Header */
+
+  #header {
+    padding: 10px;
+  }
+
+  #header-img {
+    width: 120px;
+  }
+
+  #nav-bar {
+    gap: 12px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  /* Hero */
+
+  #hero {
+    padding: 220px 18px 60px;
+  }
+
+  #hero h1 {
+    font-size: 42px;
+  }
+
+  #hero p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  /* Section Headings */
+
+  h2 {
+    font-size: 36px;
+    padding: 24px;
+  }
+
+    /* About and Stories */
+
+  #about .two-column,
+  #stories .two-column {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #about .two-column img,
+  #stories .two-column img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #stories .two-column img {
+    order: -1;
+  }
+
+  #about .two-column div,
+  #stories .two-column div {
+    width: 100%;
+    padding: 0;
+  }
+
+  #about p,
+  #stories p {
+    text-align: left;
+  }
+  /* Membership Cards */
+
+  .feature-card-content h3 {
+    font-size: 32px;
+  }
+
+  .feature-card-content ul {
+    font-size: 20px;
+  }
+
+  .feature-card-header h4 {
+    font-size: 28px;
+  }
+
+  /* Table */
+
+  #data-table {
+    min-width: 700px;
+  }
+
+  /* Video Section */
+
+  .video-content h3 {
+    font-size: 28px;
+  }
+
+  .video-content p {
+    font-size: 20px;
+  }
+
+  /* Buttons */
+
+  .cta-button,
+  .tier-button,
+  #submit {
+    font-size: 22px;
+  }
+
+  /* Form */
+
+  #contact-form {
+    padding: 20px;
+  }
+}
