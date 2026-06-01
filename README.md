@@ -24,7 +24,7 @@ as I learn web design and development
 - **Workspace Repository:** https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
 - **Figma:** wrieseberg@ewu.edu - Wendy
 - **CodePen:**  https://codepen.io/wrieseberg
-- **LiveCode:** 
+- **LiveCode: https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
 - **GitHub Student Pack:** approved
 
 
@@ -36,10 +36,10 @@ as I learn web design and development
 - [x] **Week 3:** D0cum3nt 4rch1t3ctur3
 - [x] **Week 4:** Th3 C4sc4d3 B3g1n5
 - [x] **Week 5:** F0rm5 & 1nput5
-- [ ] **Week 6:** Fl3xb0x M45t3ry
-- [ ] **Week 7:** Tr1but3 P4g3
-- [ ] **Week 8:** Gr1d Sy5t3m5
-- [ ] **Week 9:** Pr0duct L4nd1ng
+- [x] **Week 6:** Fl3xb0x M45t3ry
+- [x] **Week 7:** Tr1but3 P4g3
+- [x] **Week 8:** Gr1d Sy5t3m5
+- [x] **Week 9:** Pr0duct L4nd1ng
 - [ ] **Week 10:** P0rtf0l10 Sy5t3m
 - [ ] **Finals:** Sh1p 1t  
 
