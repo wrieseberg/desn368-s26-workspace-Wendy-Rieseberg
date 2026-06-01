@@ -19,6 +19,7 @@ transform: scale(0.98);
 This provides visual feedback and improves the user experience.
 
 
+
 ## Table Content Type Chosen
 
 I created a membership comparison table. The table compares subscription tiers, pricing, included features, and the intended audience for each membership option.
