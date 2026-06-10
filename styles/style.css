@@ -15,6 +15,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 
@@ -687,3 +691,36 @@ footer p {
 footer p:last-child {
   margin-bottom: 0;
 }
+
+.reflection-page {
+  padding: 50px 0;
+
+  background-image: url("../assets/images/about-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reflection-full {
+  width: 700px;
+
+  margin: 0 auto;
+  padding: 45px;
+
+  background: #94F291;
+  border: 4px solid #03D9B0;
+}
+
+.reflection-full h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 32px;
+
+  margin-top: 0;
+}
+
+.reflection-full p {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
