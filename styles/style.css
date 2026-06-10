@@ -274,7 +274,6 @@ nav a:hover {
 }
 
 
-
 .education-card .card-icon {
   width: 80px;
 }
@@ -335,17 +334,20 @@ nav a:hover {
 }
 
 .project-card img {
-  width: 45px;
-  height: 45px;
+  width: 75px;
+  height: 75px;
 
   border-radius: 50%;
   object-fit: cover;
+
+  display: block;
+  margin: 0 auto 10px;
 }
 
 .project-card h3 {
   font-family: "Anton", sans-serif;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 28px;
+  line-height: 28px;
   letter-spacing: 1px;
 
   margin: 8px 0;
@@ -357,8 +359,9 @@ nav a:hover {
 
 .project-card p {
   font-family: "Manrope", sans-serif;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
 }
 
 
@@ -399,4 +402,75 @@ nav a:hover {
 .project-card .soon-text {
   width: 150px;
   white-space: nowrap;
+}
+
+
+.design-wrapper {
+  position: relative;
+}
+
+.design-wireframe {
+  position: absolute;
+
+  width: 900px;
+  height: 1160px;
+
+  border: 15px solid #000000;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  top: 130px;
+
+  z-index: 1;
+}
+
+.design-frame {
+  position: relative;
+  z-index: 2;
+}
+
+
+#photography {
+  padding: 100px 50px 120px;
+  background: #ffffff;
+}
+
+.photo-wrapper {
+  position: relative;
+}
+
+.photo-frame {
+  width: 825px;
+
+  margin: 135px auto 0;
+
+  padding: 15px;
+
+  background: #9121C6;
+
+  position: relative;
+  z-index: 2;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.photo-wireframe {
+  position: absolute;
+
+  width: 900px;
+  height: 470px;
+
+  border: 15px solid #000000;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  top: 115px;
+
+  z-index: 1;
 }
