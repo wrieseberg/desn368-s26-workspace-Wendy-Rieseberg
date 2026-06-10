@@ -1,64 +1,75 @@
-# Wendy Rieseberg - DESN 368 Portfolio
+# Wendy Rieseberg Portfolio
 
-## About
-I’m a design student at Eastern Washington University.
-This repository contains my work, exercises, and progress from DESN 368 
-as I learn web design and development
+## Overview
 
-## What's Inside
-- 'week-1/' - Newspaper Layout, Lost Pet flyer, Favorite Band page
-- 'week-2/' - HTML 101 exercises, Recip page, HTML Skeleton
-- 'week-3/' - CSS foundations, Recipe styling
+This portfolio showcases selected design, web design, branding, UX, and photography projects completed during my Bachelor of Design program at Eastern Washington University. The site highlights my growth as a designer and developer while demonstrating the skills I developed throughout DESN 368.
 
-## 👤 **Student Information**
-**Instructor:** Professor Travis Masingale
-**Email:** tmasingale@ewu.edu
-**Course:** DESN368 CODE + DESIGN 1
-**Quarter:** Spring 2026  
+## About Me
 
----
+I am a Bachelor of Design student at Eastern Washington University pursuing a minor in Psychology and a Photography Certificate. My interests include branding, web design, UX design, and visual storytelling. Drawing from both design and psychology, I enjoy creating engaging, user-centered experiences that connect with people.
 
-## 🛠️ **My Toolkit**
-*Update these links as you complete each tool setup:*
-- **GitHub Profile:**  ⏳
-- **Workspace Repository:** https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
-- **Figma:** wrieseberg@ewu.edu - Wendy
-- **CodePen:**  https://codepen.io/wrieseberg
-- **LiveCode: https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
-- **GitHub Student Pack:** approved
+## Featured Projects
 
+### P!nk Tribute Site
 
-## 🎯 **Course Progress**
-*Check off assignments as you complete them:*
+A tribute website celebrating P!nk's music, career, and impact.
 
-- [x] **Week 1:** S3tup & 0nb04rd1ng
-- [x] **Week 2:** Th3 F1r5t T4g
-- [x] **Week 3:** D0cum3nt 4rch1t3ctur3
-- [x] **Week 4:** Th3 C4sc4d3 B3g1n5
-- [x] **Week 5:** F0rm5 & 1nput5
-- [x] **Week 6:** Fl3xb0x M45t3ry
-- [x] **Week 7:** Tr1but3 P4g3
-- [x] **Week 8:** Gr1d Sy5t3m5
-- [x] **Week 9:** Pr0duct L4nd1ng
-- [ ] **Week 10:** P0rtf0l10 Sy5t3m
-- [ ] **Finals:** Sh1p 1t  
+### Recipe Project
 
----
+One of my first HTML and CSS projects focused on building and styling a recipe page.
 
-## 🔗 **Course Resources**
-### **Primary Course Hub**
-- **📌 Milanote Course Home** - [Course board with assignments & resources](https://app.milanote.com/1W6e931MhvTVaN?p=1kaC1j7112i)
+### Echo Trails
 
-### **Learning Platforms**
-- **📚 Canvas LMS** - [Grades and official submissions](https://canvas.ewu.edu)
-- **🎨 Figma Team** - [Design projects](https://www.figma.com/team_invite/redeem/x4YhkxdsvcOhUte2KX7Zwm?t=MxznjhsFuM43uNyb-21)
+A product landing page designed for a mystery-themed travel newsletter.
 
-### **Practice & Reference**
-- **📖 Course Syllabus** - [Course policies and schedule](https://code-and-design.org/1/syllabus/)  
-  
+### Tarot Field Guide
 
-### **Support**
-- **✉️ Instructor Email:** [tmasingale@ewu.edu](mailto:tmasingale@ewu.edu)
-- **🏢 Office Hours:** Mon/Wed 1–2:30pm, Thurs 1–2pm
-- **📍 Location:** Catalyst Room 167  
+An interactive guide designed to help users learn and understand tarot.
 
+## Additional Work
+
+This portfolio also includes selected branding, advertising, photography, publication, and UX projects completed throughout my design coursework.
+
+## Skills & Tools
+
+* HTML5
+* CSS3
+* Responsive Web Design
+* Flexbox
+* CSS Grid
+* Figma
+* Adobe Illustrator
+* Adobe Photoshop
+* Adobe InDesign
+* Branding & Identity Design
+* UX/UI Design
+* Photography
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* Google Fonts
+* GitHub Pages
+* Visual Studio Code
+
+## Live Portfolio
+
+Portfolio Website:
+https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
+
+## Repository
+
+GitHub Repository:
+https://github.com/wrieseberg/desn368-s26-workspace-Wendy-Rieseberg
+
+## AI Usage & Sources
+
+AI tools, including ChatGPT, were used throughout development as learning, troubleshooting, debugging, and code assistance resources. AI-generated suggestions were reviewed, modified, and implemented as part of the learning process.
+
+## Contact
+
+LinkedIn:
+https://www.linkedin.com/in/wendy-rieseberg/
+
+Resume available through the portfolio website.
