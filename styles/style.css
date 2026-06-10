@@ -1,20 +1,124 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  line-height: 1.6;
+  margin: 0;
+  background: #ffffff;
+  font-family: "Manrope", sans-serif;
 }
 
-h1, h2 {
-  color: #333;
+header {
+  background: #000000;
+  color: #ffffff;
+
+  padding: 20px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-a {
-  color: #007acc;
+.logo h2 {
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.logo p {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  LETTER-SPACING: 1.4PX;
+}
+
+.purple-text {
+  color: #5B3ACF;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: #ffffff;
   text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
 }
 
-a:hover {
-  text-decoration: underline;
+#hero {
+  min-height: 600px;
+  background: #ffffff;
+  padding-top: 150px;
+}
+
+.hero-green-bar {
+  background: #94F291;
+
+  height: 150px;
+
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  z-index: 2;
+}
+
+.hero-accent-box {
+  width: 150px;
+  height: 260px;
+  background: #03D9B0;
+  opacity: 0.75;
+
+  position: absolute;
+  left: 150px;
+  top: -70px;
+}
+
+.hero-text {
+  margin-left: 260px;
+  margin-top: 5px;
+}
+
+.hero-text h1 {
+  margin: 0;
+
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 58px;
+
+  color: #000000;
+}
+
+.hero-text p {
+  margin: 0;;
+
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight:500;
+  line-height: 20px;
+  letter-spacing: 3px;
+
+  color: #000000;
+}
+
+.hero-image img {
+  width: 250px;
+  display: block;
+
+  margin-right: 150px;
 }
