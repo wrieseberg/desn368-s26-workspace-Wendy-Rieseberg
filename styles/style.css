@@ -4,6 +4,7 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+
 header {
   background: #000000;
   color: #ffffff;
@@ -15,6 +16,7 @@ header {
   align-items: center;
 }
 
+
 .logo h2 {
   margin: 0;
   font-family: "Anton", sans-serif;
@@ -22,6 +24,7 @@ header {
   font-weight: 400;
   line-height: 32px;
 }
+
 
 .logo p {
   margin: 0;
@@ -35,10 +38,12 @@ header {
   color: #5B3ACF;
 }
 
+
 nav {
   display: flex;
   gap: 30px;
 }
+
 
 nav a {
   color: #ffffff;
@@ -47,16 +52,19 @@ nav a {
   font-size: 16px;
 }
 
+
 #hero {
   min-height: 600px;
   background: #ffffff;
   padding-top: 150px;
 }
 
+
 .hero-green-bar {
   background: #94F291;
 
   height: 150px;
+  margin-top: 100px;
 
   border-top: 4px solid #000000;
   border-bottom: 4px solid #000000;
@@ -65,6 +73,7 @@ nav a {
   display: flex;
   align-items: center;
 }
+
 
 .hero-content {
   width: 100%;
@@ -77,6 +86,7 @@ nav a {
   z-index: 2;
 }
 
+
 .hero-accent-box {
   width: 150px;
   height: 260px;
@@ -88,10 +98,12 @@ nav a {
   top: -70px;
 }
 
+
 .hero-text {
   margin-left: 260px;
   margin-top: 5px;
 }
+
 
 .hero-text h1 {
   margin: 0;
@@ -103,6 +115,7 @@ nav a {
 
   color: #000000;
 }
+
 
 .hero-text p {
   margin: 0;;
@@ -116,9 +129,139 @@ nav a {
   color: #000000;
 }
 
+
 .hero-image img {
   width: 250px;
   display: block;
 
   margin-right: 150px;
+}
+
+
+.section-divider {
+  height: 18px;
+  background: #03D9B0;
+  margin-top: 10px;
+}
+
+
+#about {
+  padding: 100px 0;
+
+  background-image: url("../assets/images/about-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.section-title {
+  position: relative;
+
+  width: 300px;
+
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+
+.title-accent {
+  width: 120px;
+  height: 145px;
+
+  background: #03D9B0;
+
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
+
+.section-title h2 {
+  position: relative;
+  z-index: 2;
+
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 10px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 48px;
+  line-height: 44px;
+}
+
+
+.about-content {
+  max-width: 700px;
+
+  margin-left: 400px;
+  margin-top: -100px;
+}
+
+
+.about-content p {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  line-height: 2;
+
+  margin: 0;
+}
+
+
+.info-card-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  margin-top: 60px;
+}
+
+
+.info-card {
+  width: 250px;
+
+  padding: 25px;
+
+  border: 4px solid #03D9B0;
+}
+
+
+.education-card {
+  background: #9121C6;
+  color: #ffffff;
+}
+
+
+.skills-card {
+  background: #94F291;
+  color: #000000;
+}
+
+
+.interests-card {
+  background: #5B3ACF;
+  color: #ffffff;
+}
+
+
+.card-icon {
+  width: 60px;
+  display: block;
+
+  margin: 0 auto 15px;
+}
+
+
+.info-card h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 32px;
+  text-align: center;
+
+  margin-top: 0;
+}
+
+
+.info-card ul {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
 }
