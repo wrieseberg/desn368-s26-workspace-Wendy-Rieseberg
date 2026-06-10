@@ -731,6 +731,10 @@ footer p:last-child {
 @media (max-width: 900px) {
 
   header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
     padding: 20px;
     flex-direction: column;
     gap: 15px;
@@ -837,9 +841,24 @@ footer p:last-child {
 /* ==================== */
 
 @media (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    padding-top: 130px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
   header {
-    position: static;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
   }
 
   .logo h2 {
@@ -858,23 +877,36 @@ footer p:last-child {
   }
 
   #hero {
-    padding: 80px 0 120px;
+    padding: 60px 0 70px;
+    overflow-x: hidden;
   }
 
   .hero-green-bar {
-    height: 180px;
-    margin-top: 40px;
+    height: auto;
+    min-height: 580px;
+    margin-top: 0;
+    padding: 80px 20px 50px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .hero-accent-box {
     width: 100px;
     height: 220px;
-    left: 25px;
-    top: -40px;
+    left: 80px;
+    top: 50px;
   }
 
   .hero-text {
-    margin-left: 120px;
+    margin-left: 60px;
+    position: relative;
+    z-index: 2;
+    top: 30px;
   }
 
   .hero-text h1 {
@@ -888,7 +920,11 @@ footer p:last-child {
   }
 
   .hero-image {
-    display: none;
+    display: block;
+    width: 65%;
+    max-width: 240px;
+    margin: 100px auto 0;
+    transform: translateX(30px);
   }
 
   #about,
@@ -897,10 +933,11 @@ footer p:last-child {
   #reflection,
   #contact {
     padding: 80px 20px 100px;
+    overflow-x: hidden;
   }
 
   .section-title {
-    margin-left: 20px;
+    margin-left: 0;
   }
 
   .section-title h2 {
@@ -909,28 +946,59 @@ footer p:last-child {
   }
 
   .about-content {
-    margin: 60px auto 0;
+    margin: 100px auto 0;
+    width: 100%;
   }
 
-  .about-content p,
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 0 30px;
+    margin-top: 40px;
+  }
+
   .reflection-card p {
     font-size: 16px;
     line-height: 1.8;
+    padding: 0;
+    margin-top: 20px;
   }
 
   .design-grid,
   .photo-grid {
+    display: grid;
     grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    gap: 30px;
   }
 
   .project-card {
-    min-height: 260px;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
 
+  .project-card img {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block;
+  }
+
+
+  
   .reflection-card,
   .contact-card {
-    width: auto;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    top: 50px;
     padding: 30px;
+    box-sizing: border-box;
   }
 
   .contact-item {
