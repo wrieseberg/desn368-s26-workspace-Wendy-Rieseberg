@@ -1,0 +1,64 @@
+# Wendy Rieseberg - DESN 368 Portfolio
+
+## About
+I’m a design student at Eastern Washington University.
+This repository contains my work, exercises, and progress from DESN 368 
+as I learn web design and development
+
+## What's Inside
+- 'week-1/' - Newspaper Layout, Lost Pet flyer, Favorite Band page
+- 'week-2/' - HTML 101 exercises, Recip page, HTML Skeleton
+- 'week-3/' - CSS foundations, Recipe styling
+
+## 👤 **Student Information**
+**Instructor:** Professor Travis Masingale
+**Email:** tmasingale@ewu.edu
+**Course:** DESN368 CODE + DESIGN 1
+**Quarter:** Spring 2026  
+
+---
+
+## 🛠️ **My Toolkit**
+*Update these links as you complete each tool setup:*
+- **GitHub Profile:**  ⏳
+- **Workspace Repository:** https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
+- **Figma:** wrieseberg@ewu.edu - Wendy
+- **CodePen:**  https://codepen.io/wrieseberg
+- **LiveCode: https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
+- **GitHub Student Pack:** approved
+
+
+## 🎯 **Course Progress**
+*Check off assignments as you complete them:*
+
+- [x] **Week 1:** S3tup & 0nb04rd1ng
+- [x] **Week 2:** Th3 F1r5t T4g
+- [x] **Week 3:** D0cum3nt 4rch1t3ctur3
+- [x] **Week 4:** Th3 C4sc4d3 B3g1n5
+- [x] **Week 5:** F0rm5 & 1nput5
+- [x] **Week 6:** Fl3xb0x M45t3ry
+- [x] **Week 7:** Tr1but3 P4g3
+- [x] **Week 8:** Gr1d Sy5t3m5
+- [x] **Week 9:** Pr0duct L4nd1ng
+- [ ] **Week 10:** P0rtf0l10 Sy5t3m
+- [ ] **Finals:** Sh1p 1t  
+
+---
+
+## 🔗 **Course Resources**
+### **Primary Course Hub**
+- **📌 Milanote Course Home** - [Course board with assignments & resources](https://app.milanote.com/1W6e931MhvTVaN?p=1kaC1j7112i)
+
+### **Learning Platforms**
+- **📚 Canvas LMS** - [Grades and official submissions](https://canvas.ewu.edu)
+- **🎨 Figma Team** - [Design projects](https://www.figma.com/team_invite/redeem/x4YhkxdsvcOhUte2KX7Zwm?t=MxznjhsFuM43uNyb-21)
+
+### **Practice & Reference**
+- **📖 Course Syllabus** - [Course policies and schedule](https://code-and-design.org/1/syllabus/)  
+  
+
+### **Support**
+- **✉️ Instructor Email:** [tmasingale@ewu.edu](mailto:tmasingale@ewu.edu)
+- **🏢 Office Hours:** Mon/Wed 1–2:30pm, Thurs 1–2pm
+- **📍 Location:** Catalyst Room 167  
+
