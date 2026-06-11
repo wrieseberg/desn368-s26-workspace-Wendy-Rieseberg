@@ -6,11 +6,11 @@
 * [x] Created archive/ folder
 * [x] Moved old README to archive/course-log.md
 * [x] Created new index.html (portfolio home page)
-* [ ] Created new README.md using the template
-* [ ] Created css/ folder for portfolio styles
-* [ ] Created images/ folder for portfolio images
+* [x] Created new README.md using the template
+* [x] Created css/ folder for portfolio styles
+* [x] Created images/ folder for portfolio images
 * [x] All week-XX folders are still in root (not moved)
-* [ ] All links in learning-log.html still work
+* [x] All links in learning-log.html still work
 
 ## Part 2: Visual Design (Figma)
 
