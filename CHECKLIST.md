@@ -19,7 +19,7 @@
 * [x] Defined 5-color palette (Background, Text, Accent, Secondary, Error/Success)
 * [x] Created Desktop mockup
 * [x] Created Mobile mockup
-* [ ] If I pivoted from original direction, I justified the change in my reflection
+* [x] If I pivoted from original direction, I justified the change in my reflection
 
 ## Part 3: Portfolio Build — Content
 
