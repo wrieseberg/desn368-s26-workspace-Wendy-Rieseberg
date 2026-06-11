@@ -33,7 +33,7 @@
 * [x] External links (GitHub profile, LinkedIn, socials)
 * [x] Footer with copyright
 * [x] Footer with AI/Integrity statement (if applicable)
-* [ ] Link to Learning Log somewhere in navigation or footer
+* [x] Link to Learning Log somewhere in navigation or footer
 
 ## Part 4: Portfolio Build — Technical
 
@@ -45,45 +45,45 @@
 * [x] At least one CSS transition on interactive element (hover state, button, card)
 * [x] Link states styled (a:link, a:visited, a:hover, a:active)
 * [x] Custom favicon installed and visible in browser tab
-* [ ] All images have descriptive alt text
+* [x] All images have descriptive alt text
 * [x] Site is live on GitHub Pages
 * [x] Tested on mobile (or narrow browser window)
 
 ## Part 5: Reflection
 
 * [x] Created reflection page (linked from portfolio)
-* [ ] The Threshold: Answered in 3-5 sentences minimum
-* [ ] The Pit: Answered in 3-5 sentences minimum
-* [ ] The Pivot: Answered in 3-5 sentences minimum
-* [ ] The Process: Answered in 3-5 sentences minimum
-* [ ] The Future: Answered in 3-5 sentences minimum
+* [x] The Threshold: Answered in 3-5 sentences minimum
+* [x] The Pit: Answered in 3-5 sentences minimum
+* [x] The Pivot: Answered in 3-5 sentences minimum
+* [x] The Process: Answered in 3-5 sentences minimum
+* [x] The Future: Answered in 3-5 sentences minimum
 
 ## Part 6: README Documentation
 
 * [x] Updated About section with my information
 * [x] Added live portfolio link
-* [ ] Added learning log link
-* [ ] Filled in Design Direction (fonts, colors, vibe)
+* [x] Added learning log link
+* [x] Filled in Design Direction (fonts, colors, vibe)
 * [x] Listed all four featured projects with descriptions
-* [ ] Credited any assets I didn't create
-* [ ] Cited tutorials or resources I used
+* [x] Credited any assets I didn't create
+* [x] Cited tutorials or resources I used
 * [x] Disclosed AI assistance (or noted "none")
-* [ ] Added link to Figma file
+* [x] Added link to Figma file
 * [x] Deleted the "How to Use" comment block at top
 
 ## Part 7: Submission
 
 * [x] Pushed all changes to GitHub
 * [x] GitHub Pages site is live and working
-* [ ] Submitted Canvas: Link to live portfolio
-* [ ] Submitted Canvas: Link to GitHub repository
-* [ ] Submitted Canvas: Link to Figma file
+* [x] Submitted Canvas: Link to live portfolio
+* [x] Submitted Canvas: Link to GitHub repository
+* [x] Submitted Canvas: Link to Figma file
 
 ## Part 8: Presentation Prep (June 11th @ 10:30 AM)
 
-* [ ] I can explain my design choices (typography, color, vibe)
-* [ ] I have one piece of code I'm proud of and can talk about
-* [ ] I can describe my "Threshold" moment
+* [x] I can explain my design choices (typography, color, vibe)
+* [x] I have one piece of code I'm proud of and can talk about
+* [x] I can describe my "Threshold" moment
 
 ## Final Gut Check
 
