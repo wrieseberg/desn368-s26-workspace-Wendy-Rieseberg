@@ -1,14 +1,26 @@
 
+:root {
+  --purple: #5b3acf;
+  --teal: #03d9b0;
+  --mint: #94f291;
+  --lavender: #9121c6;
+  --dark: #000000;
+  --light: #ffffff;
+
+  --heading-font: "Anton", sans-serif;
+  --body-font: "Manrope", sans-serif;
+}
+
 body {
   margin: 0;
-  background: #ffffff;
-  font-family: "Manrope", sans-serif;
+  background: var(--light);
+  font-family: var(--body-font);
 }
 
 
 header {
-  background: #000000;
-  color: #ffffff;
+  background: var(--dark);
+  color: var(--light);
 
   padding: 20px 50px;
 
@@ -24,7 +36,7 @@ header {
 
 .logo h2 {
   margin: 0;
-  font-family: "Anton", sans-serif;
+  font-family: var(--body-font);
   font-size: 32px;
   font-weight: 400;
   line-height: 32px;
@@ -33,14 +45,14 @@ header {
 
 .logo p {
   margin: 0;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 16px;
   LETTER-SPACING: 1.4PX;
 }
 
 .purple-text {
-  color: #5B3ACF;
+  color: var(--purple);
 }
 
 
@@ -51,9 +63,9 @@ nav {
 
 
 nav a {
-  color: #ffffff;
+  color: var(--light);
   text-decoration: none;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 16px;
 
   transition: 0.3s;
@@ -61,25 +73,25 @@ nav a {
 
 
 nav a:hover {
-  color: #9121C6;
+  color: var(--lavender);
 }
 
 
 #hero {
   min-height: 600px;
-  background: #ffffff;
+  background: var(--light);
   padding-top: 150px;
 }
 
 
 .hero-green-bar {
-  background: #94F291;
+  background: var(--mint);
 
   height: 150px;
   margin-top: 100px;
 
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
+  border-top: 4px solid var(--dark);
+  border-bottom: 4px solid var(--dark);
 
   position: relative;
   display: flex;
@@ -102,7 +114,7 @@ nav a:hover {
 .hero-accent-box {
   width: 150px;
   height: 260px;
-  background: #03D9B0;
+  background: var(--teal);
   opacity: 0.75;
 
   position: absolute;
@@ -120,25 +132,25 @@ nav a:hover {
 .hero-text h1 {
   margin: 0;
 
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 64px;
   font-weight: 400;
   line-height: 58px;
 
-  color: #000000;
+  color: var(--dark);
 }
 
 
 .hero-text p {
   margin: 0;
 
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 16px;
   font-weight:500;
   line-height: 20px;
   letter-spacing: 3px;
 
-  color: #000000;
+  color: var(--dark);
 }
 
 
@@ -152,7 +164,7 @@ nav a:hover {
 
 .section-divider {
   height: 18px;
-  background: #03D9B0;
+  background: var(--teal);
   margin-top: -10px;
 }
 
@@ -179,7 +191,7 @@ nav a:hover {
   width: 90px;
   height: 175px;
 
-  background: #03D9B0;
+  background: var(--teal);
 
   position: absolute;
   left: 0;
@@ -195,7 +207,7 @@ nav a:hover {
   padding-left: 65px;
   padding-top: 35px;
 
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 48px;
   line-height: 44px;
 }
@@ -208,7 +220,7 @@ nav a:hover {
 }
 
 .about-content p {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 20px;
   line-height: 2;
 
@@ -221,7 +233,7 @@ nav a:hover {
 
   margin: 80px auto 0;
 
-  border: 15px solid #000000;
+  border: 15px solid var(--dark);
 
   display: flex;
   justify-content: center;
@@ -245,25 +257,25 @@ nav a:hover {
 
   padding: 18px;
 
-  border: 4px solid #03D9B0;
+  border: 4px solid var(--teal);
 
   position: relative;
   top: 5px;
 }
 
 .education-card {
-  background: #9121C6;
-  color: #ffffff;
+  background: var(--lavender);
+  color: var(--light);
 }
 
 .skills-card {
-  background: #94F291;
-  color: #000000;
+  background: var(--mint);
+  color: var(--dark);
 }
 
 .interests-card {
-  background: #5B3ACF;
-  color: #ffffff;
+  background: var(--purple);
+  color: var(--light);
 }
 
 .card-icon {
@@ -288,13 +300,13 @@ nav a:hover {
 
 
 .info-card ul {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 12px;
   line-height: 1.4;
 }
 
 .info-card h3 {
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 32px;
   text-align: center;
   letter-spacing: 2px;
@@ -305,7 +317,7 @@ nav a:hover {
 
 #design {
   padding: 100px 50px 120px;
-  background: #ffffff;
+  background: var(--light);
 }
 
 .design-frame {
@@ -315,7 +327,7 @@ nav a:hover {
 
   padding: 15px;
 
-  background: #9121c6;
+  background: var(--lavender);
 }
 
 .design-grid {
@@ -326,9 +338,9 @@ nav a:hover {
 
 .project-card {
   min-height: 280px;
-  background: #94F291;
+  background: var(--mint);
 
-  border: 4px solid #03D9B0;
+  border: 4px solid var(--teal);
 
   padding: 15px;
 
@@ -349,7 +361,7 @@ nav a:hover {
 }
 
 .project-card h3 {
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 28px;
   line-height: 28px;
   letter-spacing: 1px;
@@ -358,11 +370,11 @@ nav a:hover {
 }
 
 .project-card h3 span {
-  color: #5B3ACF;
+  color: var(--purple);
 }
 
 .project-card p {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 18px;
   line-height: 25px;
   text-align: left;
@@ -370,7 +382,7 @@ nav a:hover {
 
 
 .project-card .soon-text {
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 1;
@@ -383,17 +395,17 @@ nav a:hover {
 .project-card .soon-text {
   display: inline-block;
 
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 1;
   text-align: center;
 
-  color: #000000;
+  color: var(--dark);
   text-decoration: none;
 
-  border: 4px solid #5B3ACF;
-  background: #03D9B0;
+  border: 4px solid var(--purple);
+  background: var(--teal);
 
   padding: 4px 0;
   margin: auto auto 0;
@@ -419,7 +431,7 @@ nav a:hover {
   width: 900px;
   height: 1160px;
 
-  border: 15px solid #000000;
+  border: 15px solid var(--dark);
 
   left: 50%;
   transform: translateX(-50%);
@@ -437,7 +449,7 @@ nav a:hover {
 
 #photography {
   padding: 100px 50px 120px;
-  background: #ffffff;
+  background: var(--light);
 }
 
 .photo-wrapper {
@@ -451,7 +463,7 @@ nav a:hover {
 
   padding: 15px;
 
-  background: #9121C6;
+  background: var(--lavender);
 
   position: relative;
   z-index: 2;
@@ -469,7 +481,7 @@ nav a:hover {
   width: 900px;
   height: 470px;
 
-  border: 15px solid #000000;
+  border: 15px solid var(--dark);
 
   left: 50%;
   transform: translateX(-50%);
@@ -499,7 +511,7 @@ nav a:hover {
   width: 820px;
   height: 270px;
 
-  border: 15px solid #000000;
+  border: 15px solid var(--dark);
 
   left: 50%;
   transform: translateX(-50%);
@@ -516,9 +528,9 @@ nav a:hover {
 
   padding: 30px;
 
-  background: #94F291;
+  background: var(--mint);
 
-  border: 4px solid #03D9B0;
+  border: 4px solid var(--teal);
 
   position: relative;
   z-index: 2;
@@ -527,12 +539,12 @@ nav a:hover {
 }
 
 .reflection-card p {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
 
   font-size: 18px;
   line-height: 2;
 
-  color: #000000;
+  color: var(--dark);
 
   margin-bottom: 25px;
   text-align: left;
@@ -543,15 +555,15 @@ nav a:hover {
 
   width: 150px;
 
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 18px;
   letter-spacing: 1px;
 
-  color: #000000;
+  color: var(--dark);
   text-decoration: none;
 
-  background: #03D9B0;
-  border: 4px solid #5B3ACF;
+  background: var(--teal);
+  border: 4px solid var(--purple);
 
   padding: 8px 0;
 }
@@ -577,7 +589,7 @@ nav a:hover {
   width: 760px;
   height: 190px;
 
-  border: 15px solid #000000;
+  border: 15px solid var(--dark);
 
   left: 50%;
   transform: translateX(-50%);
@@ -595,8 +607,8 @@ nav a:hover {
   padding: 50px;
   
 
-  background: #94F291;
-  border: 4px solid #03D9B0;
+  background: var(--mint);
+  border: 4px solid var(--teal);
 
   position: relative;
   z-index: 2;
@@ -632,10 +644,10 @@ nav a:hover {
 .contact-item a {
   margin: 0;
 
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 28px;
 
-  color: #000000;
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -646,8 +658,8 @@ nav a:hover {
 
   padding: 4px 12px;
 
-  background: #03D9B0;
-  border: 4px solid #5B3ACF;
+  background: var(--teal);
+  border: 4px solid var(--purple);
 }
 
 .back-to-top {
@@ -659,21 +671,21 @@ nav a:hover {
 
   padding: 8px 25px;
 
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 18px;
 
-  color: #000000;
+  color: var(--dark);
   text-decoration: none;
 
-  background: #03D9B0;
-  border: 4px solid #5B3ACF;
+  background: var(--teal);
+  border: 4px solid var(--purple);
 }
 
 
 footer {
-  background: #000000;
+  background: var(--dark);
 
-  color: #ffffff;
+  color: var(--light);
 
   text-align: center;
 
@@ -683,7 +695,7 @@ footer {
 footer p {
   margin: 0 0 25px;
 
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 18px;
   line-height: 1.6;
 }
@@ -707,19 +719,19 @@ footer p:last-child {
   margin: 0 auto;
   padding: 45px;
 
-  background: #94F291;
-  border: 4px solid #03D9B0;
+  background: var(--mint);
+  border: 4px solid var(--teal);
 }
 
 .reflection-full h1 {
-  font-family: "Anton", sans-serif;
+  font-family: var(--heading-font);
   font-size: 32px;
 
   margin-top: 0;
 }
 
 .reflection-full p {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 1.8;
 }
