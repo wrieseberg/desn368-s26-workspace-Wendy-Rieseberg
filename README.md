@@ -1,75 +1,133 @@
 # Wendy Rieseberg Portfolio
 
-## Overview
+## About This Repository
 
-This portfolio showcases selected design, web design, branding, UX, and photography projects completed during my Bachelor of Design program at Eastern Washington University. The site highlights my growth as a designer and developer while demonstrating the skills I developed throughout DESN 368.
+This repository documents my journey through DESN 368, where I learned to build for the web using HTML and CSS while developing responsive, user-centered websites. This portfolio showcases selected projects and reflects my growth as both a designer and front-end developer.
 
-## About Me
+### View Live Portfolio
 
-I am a Bachelor of Design student at Eastern Washington University pursuing a minor in Psychology and a Photography Certificate. My interests include branding, web design, UX design, and visual storytelling. Drawing from both design and psychology, I enjoy creating engaging, user-centered experiences that connect with people.
+https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
+
+### View Learning Log
+
+https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/learning-log.html
+
+---
+
+## Design Direction
+
+For my portfolio, I pursued a bold, modern, creative aesthetic inspired by graphic design, branding, and editorial layouts. The colors and overall feel like they truly represent me and my work. 
+
+### Header Font
+
+Anton
+
+### Body Font
+
+Manrope
+
+### Primary Colors
+
+#5B3ACF
+#94F291
+
+### Accent Colors
+
+#03D9B0
+#9121C6
+#000000
+
+### Background
+
+#F2F2F2
+
+
+
+### View Figma File
+
+https://www.figma.com/design/gLpXyUGtxS5OtjXhCUE2hQ/Wendy-portfolio?node-id=60-19&t=fJj8hMuvNhwpqgNV-1
+---
 
 ## Featured Projects
 
-### P!nk Tribute Site
+### The Recipe
 
-A tribute website celebrating P!nk's music, career, and impact.
+A responsive recipe page that introduced foundational HTML structure and CSS styling techniques.
 
-### Recipe Project
+### Tribute Site
 
-One of my first HTML and CSS projects focused on building and styling a recipe page.
+A tribute website celebrating the career and impact of musician P!nk through typography, imagery, and visual storytelling.
 
-### Echo Trails
+### Field Guide
 
-A product landing page designed for a mystery-themed travel newsletter.
+An interactive Tarot Field Guide designed to organize information using responsive layouts, navigation, and content hierarchy.
 
-### Tarot Field Guide
+### Product Landing Page
 
-An interactive guide designed to help users learn and understand tarot.
+A promotional landing page for Echo Trails, a mystery-themed travel newsletter focused on storytelling and exploration.
 
-## Additional Work
+---
 
-This portfolio also includes selected branding, advertising, photography, publication, and UX projects completed throughout my design coursework.
+## Technical Skills Demonstrated
 
-## Skills & Tools
+* Semantic HTML5
+* CSS Layout (Flexbox & Grid)
+* Responsive Design with Media Queries
+* CSS Custom Properties (Variables)
+* CSS Transitions
+* Version Control with Git & GitHub
 
-* HTML5
-* CSS3
-* Responsive Web Design
-* Flexbox
-* CSS Grid
-* Figma
-* Adobe Illustrator
-* Adobe Photoshop
-* Adobe InDesign
-* Branding & Identity Design
-* UX/UI Design
-* Photography
+---
 
-## Technologies Used
+## Archive
 
-* HTML5
-* CSS3
-* Google Fonts
-* GitHub Pages
-* Visual Studio Code
+### Course Log
 
-## Live Portfolio
+Detailed weekly documentation stored in:
 
-Portfolio Website:
-https://wrieseberg.github.io/desn368-s26-workspace-Wendy-Rieseberg/
+archive/course-log.md
 
-## Repository
+### Learning Log
 
-GitHub Repository:
-https://github.com/wrieseberg/desn368-s26-workspace-Wendy-Rieseberg
+Weekly exercises, assignments, and progress documentation:
 
-## AI Usage & Sources
+learning-log.html
 
-AI tools, including ChatGPT, were used throughout development as learning, troubleshooting, debugging, and code assistance resources. AI-generated suggestions were reviewed, modified, and implemented as part of the learning process.
+---
 
-## Contact
+## Credits & Citations
 
-LinkedIn:
-https://www.linkedin.com/in/wendy-rieseberg/
+All artwork was created by me. I used AI as an assistant to help me troubleshoot, and fully understand the inner workings of code. 
 
-Resume available through the portfolio website.
+### Assets
+
+* Personal photography used throughout portfolio
+* Icons sourced from SVG Repo and modified for portfolio use
+* Google Fonts (Anton and Manrope)
+
+### Tutorials & Resources
+
+* MDN Web Docs
+* W3Schools
+* CSS Tricks
+* GitHub Docs
+* Course demonstrations and examples provided in DESN 368
+
+### AI Assistance
+
+ChatGPT was used as a learning, troubleshooting, debugging, and code assistance resource throughout the development process. All code was reviewed, modified, and implemented as part of the learning process.
+
+---
+
+## Reflection
+
+Read the full portfolio reflection:
+
+reflection.html
+
+---
+
+© 2026 Wendy Rieseberg
+DESN 368: Web Design Fundamentals
+Eastern Washington University
+Instructor: Travis Masingale
